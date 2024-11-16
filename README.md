@@ -48,9 +48,6 @@
 <ul>
 <p>To remove only the VIPER templates, use:</p>
 <pre><code><p></p>make uninstall_viper_templates<p></p></code></pre>
-</ul>
-<ul>
-<h3>Remove All Templates</h3>
 <p>To remove all installed templates:</p>
   <pre><code><p></p>make uninstall_all_templates<p></p></code></pre>
 </ul>
