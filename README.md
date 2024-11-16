@@ -6,7 +6,7 @@
 </p>
 
 <div class="tags">
-    <div class="tag gray">Swift 5</div>
+    <div class="tag gray">Swift 6</div>
     <div class="tag blue">Xcode 16</div>
 </div>
 
