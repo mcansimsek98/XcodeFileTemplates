@@ -29,15 +29,17 @@
 <hr>
 <h2>🚀 Installation</h2>
 <h3>Clone the Repository</h3>
-<p>Clone this repository to your local machine:</p>
-<pre><code><p></p>git clone https://github.com/username/viper-templates.git<p></p></code></pre>
-
+<ul> 
+<li><p>Clone this repository to your local machine:</p></li>
+<pre><code>git clone https://github.com/username/viper-templates.git</code></pre>
+</ul>
 <h3>Install the Templates</h3>
 <p>Navigate to the repository's root directory and run:</p>
-<ul>
-<p><b>VIPER:</b></p>
-<pre><code><p></p>make install_viper_templates<p></p></code></pre>
+<ul> 
+<li><p><b>VIPER:</b></p></li>
+<pre><code>make install_viper_templates</code></pre>
 </ul>
+
 <div class="note">
     <strong>Note:</strong> If the templates do not appear in Xcode after installation, please restart your computer to ensure the templates are properly loaded.
 </div>
@@ -46,10 +48,10 @@
 <h2>🔄 Uninstallation</h2>
 <h3>Steps to Uninstall</h3>
 <ul>
-<p>To remove only the VIPER templates, use:</p>
-<pre><code><p></p>make uninstall_viper_templates<p></p></code></pre>
-<p>To remove all installed templates:</p>
-  <pre><code><p></p>make uninstall_all_templates<p></p></code></pre>
+<li><p>To remove only the VIPER templates, use:</p></li>
+<pre><code>make uninstall_viper_templates</code></pre>
+<li><p>To remove all installed templates:</p></li>
+  <pre><code>make uninstall_all_templates</code></pre>
 </ul>
 <p>This will:</p>
 <ul>
