@@ -13,9 +13,18 @@ final class ___VARIABLE_ModuleName___VC: BaseViewController<___VARIABLE_ModuleNa
     var presenter: ViewToPresenter___VARIABLE_ModuleName___Protocol?
 
     // MARK: - Lifecycle Methods
+    override func loadView() {
+        super.loadView()
+        self.view = ___VARIABLE_ModuleName___View()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        presenter?.view = nil
     }
 }
 
